@@ -33,6 +33,7 @@ const teamFootBall = [
     }
 ]
 
+// Crea numeri random per points e foul
 for (let i = 0; i < teamFootBall.length ; i++){
 
     teamFootBall[i].points = Math.floor (Math.random()*50) + 1;
